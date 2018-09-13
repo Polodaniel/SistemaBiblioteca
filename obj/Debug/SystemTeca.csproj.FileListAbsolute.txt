@@ -1,0 +1,28 @@
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\bin\Debug\SystemTeca.exe.config
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\bin\Debug\SystemTeca.exe
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\bin\Debug\SystemTeca.pdb
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.csprojAssemblyReference.cache
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.Form1.resources
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.Properties.Resources.resources
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.csproj.GenerateResource.cache
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.exe
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.pdb
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.FrmLogin.resources
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.FmrIndex.resources
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.Cadastros.FmrCadastroCategoria.resources
+C:\Users\Microsoft\Desktop\SystemTeca\SystemTeca\obj\Debug\SystemTeca.Configuracao.FmrConfiguracaoCadastroUsuario.resources
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\bin\Debug\SystemTeca.exe.config
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\bin\Debug\SystemTeca.exe
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\bin\Debug\SystemTeca.pdb
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.csprojAssemblyReference.cache
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.Cadastros.FmrCadastroCategoria.resources
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.Configuracao.FmrConfiguracaoCadastroUsuario.resources
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.FmrIndex.resources
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.FrmLogin.resources
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.Form1.resources
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.Properties.Resources.resources
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.csproj.GenerateResource.cache
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.exe
+C:\Users\aluno\Desktop\Projeto Estagio 3\SystemOTeca\SystemTeca\obj\Debug\SystemTeca.pdb
