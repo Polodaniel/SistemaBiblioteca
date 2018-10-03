@@ -1,6 +1,6 @@
 ﻿namespace SystemTeca
 {
-    partial class Form1
+    partial class FormLoad
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLoad));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.BarraLoad = new System.Windows.Forms.ProgressBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -52,6 +52,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(646, 195);
             this.panel1.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(458, 152);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(177, 14);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Sistema Gerenciador de Biblioteca";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // label1
             // 
@@ -88,18 +100,6 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(458, 152);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 14);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Sistema Gerenciado de Biblioteca";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // Form1
             // 

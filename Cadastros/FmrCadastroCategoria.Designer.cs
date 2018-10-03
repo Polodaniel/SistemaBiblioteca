@@ -54,10 +54,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(376, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 51);
+            this.label1.Size = new System.Drawing.Size(86, 51);
             this.label1.TabIndex = 5;
             this.label1.Text = "Cadastro\r\nde \r\nCategorias";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -65,23 +65,24 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(34, 152);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 17);
+            this.label2.Size = new System.Drawing.Size(161, 17);
             this.label2.TabIndex = 6;
             this.label2.Text = "Numero Identificação";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(175, 150);
+            this.textBox1.Location = new System.Drawing.Point(198, 150);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(237, 23);
             this.textBox1.TabIndex = 7;
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(291, 239);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 57);
@@ -91,28 +92,30 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(155, 239);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(101, 57);
             this.button2.TabIndex = 9;
             this.button2.Text = "Cancelar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(165, 190);
+            this.textBox2.Location = new System.Drawing.Point(198, 190);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(247, 23);
+            this.textBox2.Size = new System.Drawing.Size(237, 23);
             this.textBox2.TabIndex = 11;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(34, 192);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(134, 17);
+            this.label3.Size = new System.Drawing.Size(152, 17);
             this.label3.TabIndex = 10;
             this.label3.Text = "Nome da Categoria ";
             // 
@@ -129,7 +132,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FmrCadastroCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SystemOteca - Cadastro de Categorias";

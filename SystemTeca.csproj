@@ -52,23 +52,29 @@
     <Compile Include="Cadastros\FmrCadastroCategoria.Designer.cs">
       <DependentUpon>FmrCadastroCategoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastros\FmrCadastroMidiaDigital.cs">
+    <Compile Include="Cadastros\FmrCadastroMidia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastros\FmrCadastroMidiaDigital.Designer.cs">
-      <DependentUpon>FmrCadastroMidiaDigital.cs</DependentUpon>
+    <Compile Include="Cadastros\FmrCadastroMidia.Designer.cs">
+      <DependentUpon>FmrCadastroMidia.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastros\FmrCadastroMidiaFisica.cs">
+    <Compile Include="Cadastros\FmrCadastroMidiaSubTitulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastros\FmrCadastroMidiaFisica.Designer.cs">
-      <DependentUpon>FmrCadastroMidiaFisica.cs</DependentUpon>
+    <Compile Include="Cadastros\FmrCadastroMidiaSubTitulo.Designer.cs">
+      <DependentUpon>FmrCadastroMidiaSubTitulo.cs</DependentUpon>
     </Compile>
     <Compile Include="Cadastros\FmrCadastroOrigem.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cadastros\FmrCadastroOrigem.Designer.cs">
       <DependentUpon>FmrCadastroOrigem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracao\FmrConfiguracaoCadastroFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracao\FmrConfiguracaoCadastroFuncionario.Designer.cs">
+      <DependentUpon>FmrConfiguracaoCadastroFuncionario.cs</DependentUpon>
     </Compile>
     <Compile Include="Configuracao\FmrConfiguracaoCadastroUsuario.cs">
       <SubType>Form</SubType>
@@ -118,16 +124,16 @@
     <Compile Include="Consulta\FmrConsultaLivrosPU.Designer.cs">
       <DependentUpon>FmrConsultaLivrosPU.cs</DependentUpon>
     </Compile>
-    <Compile Include="FmrDevolucao.cs">
+    <Compile Include="Index\FmrDevolucao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FmrDevolucao.Designer.cs">
+    <Compile Include="Index\FmrDevolucao.Designer.cs">
       <DependentUpon>FmrDevolucao.cs</DependentUpon>
     </Compile>
-    <Compile Include="FmrEmprestimo.cs">
+    <Compile Include="Index\FmrEmprestimo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FmrEmprestimo.Designer.cs">
+    <Compile Include="Index\FmrEmprestimo.Designer.cs">
       <DependentUpon>FmrEmprestimo.cs</DependentUpon>
     </Compile>
     <Compile Include="FmrIndex.cs">
@@ -136,10 +142,10 @@
     <Compile Include="FmrIndex.Designer.cs">
       <DependentUpon>FmrIndex.cs</DependentUpon>
     </Compile>
-    <Compile Include="FmrRelatorios.cs">
+    <Compile Include="Index\FmrRelatorios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FmrRelatorios.Designer.cs">
+    <Compile Include="Index\FmrRelatorios.Designer.cs">
       <DependentUpon>FmrRelatorios.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLogin.cs">
@@ -148,11 +154,11 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="FormLoad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormLoad.Designer.cs">
+      <DependentUpon>FormLoad.cs</DependentUpon>
     </Compile>
     <Compile Include="Pesquisa\FmrPesquisa.cs">
       <SubType>Form</SubType>
@@ -165,17 +171,62 @@
     <EmbeddedResource Include="Cadastros\FmrCadastroCategoria.resx">
       <DependentUpon>FmrCadastroCategoria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\FmrCadastroMidia.resx">
+      <DependentUpon>FmrCadastroMidia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\FmrCadastroMidiaSubTitulo.resx">
+      <DependentUpon>FmrCadastroMidiaSubTitulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\FmrCadastroOrigem.resx">
+      <DependentUpon>FmrCadastroOrigem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracao\FmrConfiguracaoCadastroFuncionario.resx">
+      <DependentUpon>FmrConfiguracaoCadastroFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Configuracao\FmrConfiguracaoCadastroUsuario.resx">
       <DependentUpon>FmrConfiguracaoCadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FmrConsulta Usuarios.resx">
+      <DependentUpon>FmrConsulta Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FmrConsultaCD.resx">
+      <DependentUpon>FmrConsultaCD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FmrConsultaColecao.resx">
+      <DependentUpon>FmrConsultaColecao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FmrConsultaDVD.resx">
+      <DependentUpon>FmrConsultaDVD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FmrConsultaFantoches.resx">
+      <DependentUpon>FmrConsultaFantoches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FmrConsultaLivros.resx">
+      <DependentUpon>FmrConsultaLivros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta\FmrConsultaLivrosPU.resx">
+      <DependentUpon>FmrConsultaLivrosPU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index\FmrDevolucao.resx">
+      <DependentUpon>FmrDevolucao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index\FmrEmprestimo.resx">
+      <DependentUpon>FmrEmprestimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FmrIndex.resx">
       <DependentUpon>FmrIndex.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Index\FmrRelatorios.resx">
+      <DependentUpon>FmrRelatorios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FormLoad.resx">
+      <DependentUpon>FormLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pesquisa\FmrPesquisa.resx">
+      <DependentUpon>FmrPesquisa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -199,5 +250,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

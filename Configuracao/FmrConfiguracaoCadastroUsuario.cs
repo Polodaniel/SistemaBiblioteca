@@ -26,5 +26,10 @@ namespace SystemTeca.Configuracao
         {
             this.Dispose();
         }
+
+        private void FmrConfiguracaoCadastroUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
