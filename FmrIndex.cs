@@ -12,11 +12,6 @@ namespace SystemTeca
 {
     public partial class FmrIndex : Form
     {
-        // Fomularios de Cadastro
-        Cadastros.FmrCadastroCategoria FormCadastroCategoria = new Cadastros.FmrCadastroCategoria();
-        Cadastros.FmrCadastroMidiaDigital FmrCadastroMidiaDigital = new Cadastros.FmrCadastroMidiaDigital();
-        Cadastros.FmrCadastroMidiaFisica FmrCadastroMidiaFisica = new Cadastros.FmrCadastroMidiaFisica();
-        Cadastros.FmrCadastroOrigem FmrCadastroOrigem = new Cadastros.FmrCadastroOrigem();
 
         // Formularios de Consulta
         Consulta.FmrConsultaCD FmrConsultaCD = new Consulta.FmrConsultaCD();
@@ -26,13 +21,6 @@ namespace SystemTeca
         Consulta.FmrConsultaLivros FmrConsultaLivros = new Consulta.FmrConsultaLivros();
         Consulta.FmrConsultaLivrosPU FmrConsultaLivrosPU = new Consulta.FmrConsultaLivrosPU();
         Consulta.FmrConsulta_Usuarios FmrConsulta_Usuarios = new Consulta.FmrConsulta_Usuarios();
-
-        // Formularios do Menu Configuração
-        Configuracao.FmrConfiguracaoCadastroUsuario FormCadastroUsuario = new Configuracao.FmrConfiguracaoCadastroUsuario();
-
-        // Formulario de Pesquisa
-
-
 
         public FmrIndex()
         {
@@ -44,49 +32,39 @@ namespace SystemTeca
             Application.Exit();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void cadastroDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Cadastro de Usuario
+            Configuracao.FmrConfiguracaoCadastroUsuario FormCadastroUsuario = new Configuracao.FmrConfiguracaoCadastroUsuario();
             FormCadastroUsuario.Show();
         }
 
-        private void FmrIndex_Load(object sender, EventArgs e)
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Cadastro de Funcionario
+            Configuracao.FmrConfiguracaoCadastroFuncionario FormCadastroFuncionario = new Configuracao.FmrConfiguracaoCadastroFuncionario();
+            FormCadastroFuncionario.Show();
+        }
 
+        private void mídiaDigitalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Cadastro de Midia
+            Cadastros.FmrCadastroMidia FmrCadastroMidia = new Cadastros.FmrCadastroMidia();
+            FmrCadastroMidia.Show();
+        }
+
+        private void cadastroDeOrigemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Cadastro de Origem
+            Cadastros.FmrCadastroOrigem FmrCadastroOrigem = new Cadastros.FmrCadastroOrigem();
+            FmrCadastroOrigem.Show();
         }
 
         private void cadastroDeCategoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormCadastroCategoria.Show();
-        }
-
-        private void cDToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FmrCadastroMidiaDigital.Show();
-        }
-
-        private void dVDToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FmrCadastroMidiaDigital.Show();
-        }
-
-        private void livroToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FmrCadastroMidiaDigital.Show();
-        }
-
-        private void livroPopUpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FmrCadastroMidiaDigital.Show();
-        }
-
-        private void fantochesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FmrCadastroMidiaDigital.Show();
+            // Cadastro de Categoria
+            Cadastros.FmrCadastroCategoria FmrCadastroCategoria = new Cadastros.FmrCadastroCategoria();
+            FmrCadastroCategoria.Show();
         }
 
         private void cDToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -124,24 +102,28 @@ namespace SystemTeca
             FmrConsulta_Usuarios.Show();
         }
 
-        private void mídiaDigitalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FmrCadastroMidiaDigital.Show();
-        }
-
-        private void mídiaFisicaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FmrCadastroMidiaFisica.Show();
-        }
-
-        private void cadastroDeOrigemToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FmrCadastroOrigem.Show();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-
+            // Emprestimo
+            FmrEmprestimo FmrEmprestimo = new FmrEmprestimo();
+            FmrEmprestimo.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Devolução
+            FmrDevolucao FmrDevolucao = new FmrDevolucao();
+            FmrDevolucao.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Relatorios
+            FmrRelatorios FmrRelatorios = new FmrRelatorios();
+            FmrRelatorios.Show();
+        }
+
+
+
     }
 }

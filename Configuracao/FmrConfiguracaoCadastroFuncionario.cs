@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SystemTeca.Cadastros
+namespace SystemTeca.Configuracao
 {
-    public partial class FmrCadastroMidiaFisica : Form
+    public partial class FmrConfiguracaoCadastroFuncionario : Form
     {
-        public FmrCadastroMidiaFisica()
+        public FmrConfiguracaoCadastroFuncionario()
         {
             InitializeComponent();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
         }
     }
 }

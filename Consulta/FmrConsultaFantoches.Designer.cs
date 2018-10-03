@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FmrConsultaFantoches
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FmrConsultaFantoches";
+            this.Name = "FmrConsultaFantoches";
+            this.Text = "SystemOteca - Consulta de Fantoches";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

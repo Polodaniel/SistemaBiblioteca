@@ -34,12 +34,6 @@
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeCategoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mídiaDigitalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dVDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mídiaFisicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.livroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.livroPopUpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fantochesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeOrigemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cDToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,20 +45,21 @@
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configuraçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroDeUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BotaoEmprestimo = new System.Windows.Forms.Button();
+            this.BotaoDevolucao = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.Sair = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BotaoRelatorios = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.BotaoRelatorios2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -95,7 +90,6 @@
             this.novoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroDeCategoriaToolStripMenuItem,
             this.mídiaDigitalToolStripMenuItem,
-            this.mídiaFisicaToolStripMenuItem,
             this.cadastroDeOrigemToolStripMenuItem});
             this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
             this.novoToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
@@ -104,71 +98,22 @@
             // cadastroDeCategoriaToolStripMenuItem
             // 
             this.cadastroDeCategoriaToolStripMenuItem.Name = "cadastroDeCategoriaToolStripMenuItem";
-            this.cadastroDeCategoriaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.cadastroDeCategoriaToolStripMenuItem.Text = "Categorias";
+            this.cadastroDeCategoriaToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.cadastroDeCategoriaToolStripMenuItem.Text = "Cadastro de Categorias";
             this.cadastroDeCategoriaToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeCategoriaToolStripMenuItem_Click);
             // 
             // mídiaDigitalToolStripMenuItem
             // 
-            this.mídiaDigitalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cDToolStripMenuItem,
-            this.dVDToolStripMenuItem});
             this.mídiaDigitalToolStripMenuItem.Name = "mídiaDigitalToolStripMenuItem";
-            this.mídiaDigitalToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.mídiaDigitalToolStripMenuItem.Text = "Mídia Digital";
+            this.mídiaDigitalToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.mídiaDigitalToolStripMenuItem.Text = "Cadstro de Mídia";
             this.mídiaDigitalToolStripMenuItem.Click += new System.EventHandler(this.mídiaDigitalToolStripMenuItem_Click);
-            // 
-            // cDToolStripMenuItem
-            // 
-            this.cDToolStripMenuItem.Name = "cDToolStripMenuItem";
-            this.cDToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
-            this.cDToolStripMenuItem.Text = "CD";
-            this.cDToolStripMenuItem.Click += new System.EventHandler(this.cDToolStripMenuItem_Click);
-            // 
-            // dVDToolStripMenuItem
-            // 
-            this.dVDToolStripMenuItem.Name = "dVDToolStripMenuItem";
-            this.dVDToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
-            this.dVDToolStripMenuItem.Text = "DVD";
-            this.dVDToolStripMenuItem.Click += new System.EventHandler(this.dVDToolStripMenuItem_Click);
-            // 
-            // mídiaFisicaToolStripMenuItem
-            // 
-            this.mídiaFisicaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.livroToolStripMenuItem,
-            this.livroPopUpToolStripMenuItem,
-            this.fantochesToolStripMenuItem});
-            this.mídiaFisicaToolStripMenuItem.Name = "mídiaFisicaToolStripMenuItem";
-            this.mídiaFisicaToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.mídiaFisicaToolStripMenuItem.Text = "Mídia Fisica";
-            this.mídiaFisicaToolStripMenuItem.Click += new System.EventHandler(this.mídiaFisicaToolStripMenuItem_Click);
-            // 
-            // livroToolStripMenuItem
-            // 
-            this.livroToolStripMenuItem.Name = "livroToolStripMenuItem";
-            this.livroToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.livroToolStripMenuItem.Text = "Livro";
-            this.livroToolStripMenuItem.Click += new System.EventHandler(this.livroToolStripMenuItem_Click);
-            // 
-            // livroPopUpToolStripMenuItem
-            // 
-            this.livroPopUpToolStripMenuItem.Name = "livroPopUpToolStripMenuItem";
-            this.livroPopUpToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.livroPopUpToolStripMenuItem.Text = "Livro pop up";
-            this.livroPopUpToolStripMenuItem.Click += new System.EventHandler(this.livroPopUpToolStripMenuItem_Click);
-            // 
-            // fantochesToolStripMenuItem
-            // 
-            this.fantochesToolStripMenuItem.Name = "fantochesToolStripMenuItem";
-            this.fantochesToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.fantochesToolStripMenuItem.Text = "Fantoches";
-            this.fantochesToolStripMenuItem.Click += new System.EventHandler(this.fantochesToolStripMenuItem_Click);
             // 
             // cadastroDeOrigemToolStripMenuItem
             // 
             this.cadastroDeOrigemToolStripMenuItem.Name = "cadastroDeOrigemToolStripMenuItem";
-            this.cadastroDeOrigemToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.cadastroDeOrigemToolStripMenuItem.Text = "Origem";
+            this.cadastroDeOrigemToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.cadastroDeOrigemToolStripMenuItem.Text = "Cadastro de Origem";
             this.cadastroDeOrigemToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeOrigemToolStripMenuItem_Click);
             // 
             // consultaToolStripMenuItem
@@ -237,7 +182,8 @@
             // configuraçãoToolStripMenuItem
             // 
             this.configuraçãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroDeUsuarioToolStripMenuItem});
+            this.cadastroDeUsuarioToolStripMenuItem,
+            this.cadastroToolStripMenuItem});
             this.configuraçãoToolStripMenuItem.Name = "configuraçãoToolStripMenuItem";
             this.configuraçãoToolStripMenuItem.Size = new System.Drawing.Size(91, 20);
             this.configuraçãoToolStripMenuItem.Text = "Configuração";
@@ -245,9 +191,16 @@
             // cadastroDeUsuarioToolStripMenuItem
             // 
             this.cadastroDeUsuarioToolStripMenuItem.Name = "cadastroDeUsuarioToolStripMenuItem";
-            this.cadastroDeUsuarioToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.cadastroDeUsuarioToolStripMenuItem.Text = "Cadastro/Exclusão de Usuario";
+            this.cadastroDeUsuarioToolStripMenuItem.Size = new System.Drawing.Size(264, 22);
+            this.cadastroDeUsuarioToolStripMenuItem.Text = "Cadastro / Exclusão de Usuario";
             this.cadastroDeUsuarioToolStripMenuItem.Click += new System.EventHandler(this.cadastroDeUsuarioToolStripMenuItem_Click);
+            // 
+            // cadastroToolStripMenuItem
+            // 
+            this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(264, 22);
+            this.cadastroToolStripMenuItem.Text = "Cadastro / Exclusão de Funcionarios";
+            this.cadastroToolStripMenuItem.Click += new System.EventHandler(this.cadastroToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -286,24 +239,25 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "System ";
             // 
-            // button1
+            // BotaoEmprestimo
             // 
-            this.button1.Location = new System.Drawing.Point(13, 196);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 50);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Emprestimo de Material";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BotaoEmprestimo.Location = new System.Drawing.Point(13, 196);
+            this.BotaoEmprestimo.Name = "BotaoEmprestimo";
+            this.BotaoEmprestimo.Size = new System.Drawing.Size(142, 50);
+            this.BotaoEmprestimo.TabIndex = 7;
+            this.BotaoEmprestimo.Text = "Emprestimo de Material";
+            this.BotaoEmprestimo.UseVisualStyleBackColor = true;
+            this.BotaoEmprestimo.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // BotaoDevolucao
             // 
-            this.button2.Location = new System.Drawing.Point(13, 275);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(142, 50);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Devolução de Material";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BotaoDevolucao.Location = new System.Drawing.Point(13, 275);
+            this.BotaoDevolucao.Name = "BotaoDevolucao";
+            this.BotaoDevolucao.Size = new System.Drawing.Size(142, 50);
+            this.BotaoDevolucao.TabIndex = 8;
+            this.BotaoDevolucao.Text = "Devolução de Material";
+            this.BotaoDevolucao.UseVisualStyleBackColor = true;
+            this.BotaoDevolucao.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
@@ -334,14 +288,15 @@
             this.Sair.UseVisualStyleBackColor = true;
             this.Sair.Click += new System.EventHandler(this.Sair_Click);
             // 
-            // button4
+            // BotaoRelatorios
             // 
-            this.button4.Location = new System.Drawing.Point(13, 352);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(142, 50);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "Relatorios";
-            this.button4.UseVisualStyleBackColor = true;
+            this.BotaoRelatorios.Location = new System.Drawing.Point(13, 352);
+            this.BotaoRelatorios.Name = "BotaoRelatorios";
+            this.BotaoRelatorios.Size = new System.Drawing.Size(142, 50);
+            this.BotaoRelatorios.TabIndex = 12;
+            this.BotaoRelatorios.Text = "Relatorios";
+            this.BotaoRelatorios.UseVisualStyleBackColor = true;
+            this.BotaoRelatorios.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel1
             // 
@@ -352,7 +307,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(792, 285);
             this.panel1.TabIndex = 13;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label5
             // 
@@ -374,14 +328,14 @@
             this.label4.Text = "_________________________________________________________________________________" +
     "___________________________________________________";
             // 
-            // button5
+            // BotaoRelatorios2
             // 
-            this.button5.Location = new System.Drawing.Point(13, 431);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(142, 50);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Relatorios";
-            this.button5.UseVisualStyleBackColor = true;
+            this.BotaoRelatorios2.Location = new System.Drawing.Point(13, 431);
+            this.BotaoRelatorios2.Name = "BotaoRelatorios2";
+            this.BotaoRelatorios2.Size = new System.Drawing.Size(142, 50);
+            this.BotaoRelatorios2.TabIndex = 14;
+            this.BotaoRelatorios2.Text = "Relatorios";
+            this.BotaoRelatorios2.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -399,14 +353,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(991, 542);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.BotaoRelatorios2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.BotaoRelatorios);
             this.Controls.Add(this.Sair);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BotaoDevolucao);
+            this.Controls.Add(this.BotaoEmprestimo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.splitter1);
@@ -414,10 +368,10 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FmrIndex";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SystemOteca";
-            this.Load += new System.EventHandler(this.FmrIndex_Load);
+            this.Text = "SystemOteca - Sistema Gerenciador de Biblioteca";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -433,29 +387,23 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem novoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroDeCategoriaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mídiaFisicaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem livroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem livroPopUpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fantochesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mídiaDigitalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cDToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dVDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem configuraçãoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroDeUsuarioToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BotaoEmprestimo;
+        private System.Windows.Forms.Button BotaoDevolucao;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button Sair;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BotaoRelatorios;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button BotaoRelatorios2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ToolStripMenuItem cadastroDeOrigemToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultaToolStripMenuItem;
@@ -466,5 +414,6 @@
         private System.Windows.Forms.ToolStripMenuItem midiaFisicaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mídiaDigitalToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
     }
 }
